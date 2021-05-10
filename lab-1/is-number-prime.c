@@ -12,7 +12,7 @@ int main() {
     int input;
     scanf("%d", &input);
 
-    printf(is_prime(input)? "Prime" : "Not Prime");
+    printf(is_prime(input) ? "Prime" : "Not Prime");
     return 0;
 }
 
