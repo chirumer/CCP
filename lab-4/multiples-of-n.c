@@ -8,10 +8,8 @@ int main() {
     int input;
     scanf("%d", &input);
 
-    for (int i = 1; i <= 100; ++i) {
-	if (i % input == 0) {
-	    printf("%d divides  %d\n", input, i);
-	}
+    for (int i = input; i <= 100; i+=input) {
+	printf("%d divides  %d\n", input, i);
     }
 
     return 0;
