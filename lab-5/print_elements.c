@@ -19,6 +19,7 @@ int main() {
     for (int i = 0; i < size; ++i) {
 	printf(" %d", num_arr[i]);
     }
+    printf("\n");
 
     return 0;
 }
